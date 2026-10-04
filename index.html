@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Gamificado - Ciencias Sociales</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="header-container">
+        <div>
+          <h1>Portafolio Gamificado</h1>
+          <p>I.E. N° 0759 Francisco Bolognesi</p>
+        </div>
+        <div class="stats-bar">
+          <div class="stat-item">
+            <span>Puntos XP:</span>
+            <span id="score-display" class="stat-value">0</span>
+          </div>
+          <div class="stat-item">
+            <span>Nivel Actual:</span>
+            <span id="level-display" class="stat-value">1 / 7</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <aside class="sidebar">
+        <h2>Temas</h2>
+        <div id="levels-menu" class="levels-menu"></div>
+      </aside>
+
+      <main class="card">
+        <section id="theory-section">
+          <h2 id="level-title">Tema 1: El Feudalismo</h2>
+          <div id="theory-content" class="theory-text"></div>
+          <button id="start-quiz-btn" class="btn btn-primary">Iniciar Desafío del Nivel</button>
+        </section>
+
+        <section id="quiz-section" class="hidden">
+          <p id="quiz-progress">Pregunta 1 de 3</p>
+          <h2 id="question-text">Pregunta</h2>
+          <div id="options-container" class="options-grid"></div>
+
+          <div id="feedback-container" class="feedback-box hidden">
+            <p id="feedback-text"></p>
+            <button id="next-question-btn" class="btn btn-secondary">Siguiente Pregunta</button>
+          </div>
+        </section>
+
+        <section id="completion-section" class="hidden">
+          <h2 id="completion-message">¡Nivel Completado! 🎉</h2>
+          <button id="continue-btn" class="btn btn-primary">Siguiente Nivel</button>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
