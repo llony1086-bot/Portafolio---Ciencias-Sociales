@@ -47,23 +47,34 @@
       <main class="content-panel">
         <section id="theory-section" class="panel-section">
           <div class="section-topbar">
-            <span class="section-kicker">Aprendizaje</span>
-            <span class="level-progress" id="level-progress-text">Nivel 1</span>
+            <div>
+              <span class="section-kicker">Aprendizaje</span>
+              <span class="level-progress" id="level-progress-text">Nivel 1</span>
+            </div>
+            <span class="theme-emoji" id="theme-emoji">📚</span>
           </div>
 
           <h2 id="level-title">Tema 1: El Feudalismo</h2>
 
+          <div class="summary-box">
+            <h3>📌 Resumen del tema:</h3>
+            <p id="summary-content" class="summary-text"></p>
+          </div>
+
           <div class="theory-box">
+            <h3>📖 Teoría completa:</h3>
             <div id="theory-content" class="theory-text"></div>
           </div>
 
-          <button id="start-quiz-btn" class="btn btn-primary">Iniciar desafío del nivel</button>
+          <button id="start-quiz-btn" class="btn btn-primary">🎯 Iniciar desafío del nivel</button>
         </section>
 
         <section id="quiz-section" class="panel-section hidden">
           <div class="section-topbar">
-            <span class="section-kicker">Evaluación</span>
-            <span id="quiz-progress" class="level-progress">Pregunta 1 de 3</span>
+            <div>
+              <span class="section-kicker">Evaluación</span>
+              <span id="quiz-progress" class="level-progress">Pregunta 1 de 3</span>
+            </div>
           </div>
 
           <h2 id="question-text">Pregunta</h2>
@@ -71,7 +82,7 @@
 
           <div id="feedback-container" class="feedback-box hidden">
             <p id="feedback-text"></p>
-            <button id="next-question-btn" class="btn btn-secondary">Siguiente pregunta</button>
+            <button id="next-question-btn" class="btn btn-secondary">➜ Siguiente pregunta</button>
           </div>
         </section>
 
@@ -80,7 +91,7 @@
             <div class="completion-icon">🎉</div>
             <h2 id="completion-message">¡Nivel completado!</h2>
             <p>Has superado este desafío. Puedes continuar con el siguiente nivel.</p>
-            <button id="continue-btn" class="btn btn-primary">Siguiente nivel</button>
+            <button id="continue-btn" class="btn btn-primary">➜ Siguiente nivel</button>
           </div>
         </section>
       </main>
