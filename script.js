@@ -5,7 +5,8 @@ const levelsData = [
   {
     id: 1,
     title: 'Tema 1: El Feudalismo',
-    theory: 'El Feudalismo fue el sistema político, económico y social predominante en Europa Occidental durante la Edad Media. Se basó en relaciones de vasallaje entre señores feudales y vasallos. La tierra era la base del poder y la riqueza, y los campesinos siervos trabajaban el feudo a cambio de protección.',
+    theory: 'El Feudalismo fue el sistema político, económico y social predominante en Europa Occidental durante la Edad Media. Se basó en relaciones de vasallaje entre señores feudales y vasallos, donde la tierra (feudo) era la base del poder y la riqueza. El señor otorgaba protección y acceso a la tierra a cambio de servicio militar, lealtad y apoyo. La sociedad estaba organizada en estamentos: nobleza, clero y campesinado, con los siervos ligados a la tierra. Esta estructura generó una economía agraria, poco dinámica, con poca movilidad social y con fuerte dependencia del señor feudal. El feudalismo se consolidó en un contexto de inseguridad tras la fragmentación del Imperio Romano, y su lógica se fundamentó en la protección, la reciprocidad y la propiedad territorial.',
+    summary: 'La tierra fue la base del poder y la riqueza. El vasallo ofrecía lealtad y ayuda militar a cambio de protección.',
     questions: [
       {
         q: '¿Cuál era la base de la economía y del poder en el sistema feudal?',
@@ -30,7 +31,8 @@ const levelsData = [
   {
     id: 2,
     title: 'Tema 2: El Tahuantinsuyo',
-    theory: 'Gran imperio andino prehispánico organizado en cuatro suyos (Chinchaysuyo, Antisuyo, Contisuyo y Collasuyo) con capital en el Cusco. Su economía se fundamentó en la reciprocidad y la redistribución, y su organización política se apoyó en el poder del inca.',
+    theory: 'Gran imperio andino prehispánico organizado en cuatro suyos (Chinchaysuyo, Antisuyo, Contisuyo y Collasuyo) con capital en el Cusco. Su economía se fundamentó en la reciprocidad y la redistribución de bienes, no en el uso de moneda. El Estado inca administró el territorio mediante el ayllu, la mita, el trabajo obligatorio y una red vial extraordinaria conocida como Qhapaq Ñan. La organización política se apoyaba en el poder del inca, quien era considerado descendiente del Sol. Además, el imperio desarrolló una gran capacidad para la integración territorial, la administración de recursos y la movilización de tributos para sostener las obras públicas y la vida del Estado.',
+    summary: 'El imperio andino se organizó alrededor del Cusco y del trabajo colectivo, la reciprocidad, la redistribución y la planificación estatal.',
     questions: [
       {
         q: '¿Cuáles fueron los dos principios básicos de la economía incaica?',
@@ -55,7 +57,8 @@ const levelsData = [
   {
     id: 3,
     title: 'Tema 3: El Humanismo y Renacimiento',
-    theory: 'Movimientos culturales de los siglos XIV al XVI que marcaron la transición hacia la Edad Moderna. El Humanismo colocó al ser humano en el centro del pensamiento (antropocentrismo), y el Renacimiento impulsó las artes, la ciencia y la cultura.',
+    theory: 'Movimientos culturales de los siglos XIV al XVI que marcaron la transición hacia la Edad Moderna. El Humanismo colocó al ser humano en el centro del pensamiento (antropocentrismo), exaltó la razón, la educación y la cultura clásica. El Renacimiento se manifestó en las artes, la arquitectura, la literatura y la ciencia, con figuras como Leonardo da Vinci, Miguel Ángel y Rafael. La imprenta de Gutenberg, la riqueza de las ciudades italianas y la protección de mecenas impulsaron la difusión de nuevas ideas. Estos movimientos renovaron la mirada del mundo y pusieron las bases del pensamiento moderno al valorizar la experiencia humana, la creatividad y el conocimiento.',
+    summary: 'El humanismo y el renacimiento pusieron al ser humano en el centro del arte, la ciencia y la reflexión.',
     questions: [
       {
         q: '¿Qué cambio filosófico central introdujo el Humanismo?',
@@ -80,7 +83,8 @@ const levelsData = [
   {
     id: 4,
     title: 'Tema 4: La Geomorfología',
-    theory: 'Rama de la geografía física que estudia las formas del relieve de la corteza terrestre (montañas, mesetas, valles, llanuras) y analiza cómo se originan y modifican mediante fuerzas internas y externas.',
+    theory: 'Rama de la geografía física que estudia las formas del relieve de la corteza terrestre (montañas, mesetas, valles, llanuras) y analiza cómo se originan y modifican mediante fuerzas internas y externas. El relieve se modela por procesos como la erosión, sedimentación, tectónica, vulcanismo y acción de ríos, océanos, lluvia, viento y hielo. En el Perú, la geomorfología es clave para entender los paisajes andinos y costeros, así como los riesgos naturales y su relación con la actividad humana. Esta disciplina permite describir la geografía de un territorio y explicar la evolución de sus formas físicas a lo largo del tiempo.',
+    summary: 'La geomorfología explica cómo se forman y transforman los relieves del planeta mediante procesos internos y externos.',
     questions: [
       {
         q: '¿Cuál es el objeto de estudio principal de la Geomorfología?',
@@ -105,7 +109,8 @@ const levelsData = [
   {
     id: 5,
     title: 'Tema 5: La Geodinámica Interna',
-    theory: 'Procesos geológicos impulsados por el calor interno del planeta que construyen nuevas formas del relieve mediante el diastrofismo (orogénesis y epirogénesis), el vulcanismo y el sismismo.',
+    theory: 'Procesos geológicos impulsados por el calor interno del planeta que construyen nuevas formas del relieve mediante el diastrofismo (orogénesis y epirogénesis), el vulcanismo y el sismismo. La dinámica interna explica la formación de cordilleras, volcanes, fosas marinas y fallas geológicas. En el caso peruano, la subducción de placas es un factor clave para la formación de los Andes. La geodinámica interna también explica los riesgos naturales: terremotos, erupciones volcánicas y tsunamis. Comprender estos fenómenos es esencial para planificar el territorio, prever desastres y entender la evolución del planeta.',
+    summary: 'El calor interno del planeta mueve placas, forma montañas y genera sismos y volcanes.',
     questions: [
       {
         q: '¿Qué proceso tectónico orogénico es responsable de la formación de los Andes?',
@@ -130,7 +135,8 @@ const levelsData = [
   {
     id: 6,
     title: 'Tema 6: El TLC y Globalización',
-    theory: 'La globalización es un proceso de integración mundial económica, tecnológica y cultural. Los Tratados de Libre Comercio (TLC) buscan eliminar aranceles y barreras comerciales para facilitar el intercambio entre países.',
+    theory: 'La globalización es un proceso de integración mundial económica, tecnológica y cultural. Los Tratados de Libre Comercio (TLC) buscan eliminar aranceles y barreras comerciales para impulsar el intercambio de bienes y servicios entre países. Sus beneficios incluyen mayores mercados y productividad, pero también pueden generar competencia, dependencia económica y desigualdades. La globalización conecta economías, culturas y comunicaciones a escala planetaria, y en América Latina ha tenido efectos importantes sobre la producción, los trabajos y la inserción internacional. Comprender este proceso permite analizar el presente y evaluar los impactos del comercio internacional.',
+    summary: 'La globalización conecta países y mercados mediante comercio, tecnología e intercambio cultural.',
     questions: [
       {
         q: '¿Cuál es el objetivo principal de la firma de un Tratado de Libre Comercio (TLC)?',
@@ -155,7 +161,8 @@ const levelsData = [
   {
     id: 7,
     title: 'Tema 7: Factores del Desarrollo Industrial',
-    theory: 'La transformación de materias primas en productos manufacturados depende de factores clave: disponibilidad de recursos naturales, capital financiero, fuentes de energía, infraestructura y tecnología.',
+    theory: 'La transformación de materias primas en productos manufacturados depende de factores clave: disponibilidad de recursos naturales, capital financiero, fuentes de energía, infraestructura y mano de obra. El desarrollo industrial exige inversión, tecnología, transportes eficientes y mercados estables. La ubicación de industrias suele depender de la proximidad a materias primas, energía y puertos, así como del acceso a capital. En muchos países, el crecimiento industrial ha impulsado la urbanización, el empleo y la productividad, pero también puede generar contaminación, desigualdad y impacto ambiental. Por eso, el desarrollo industrial debe combinar producción con sostenibilidad y planificación.',
+    summary: 'La industria crece cuando existen recursos, energía, capital, infraestructura y un mercado adecuado.',
     questions: [
       {
         q: '¿Qué factor del desarrollo industrial es indispensable para mover maquinarias en las fábricas?',
@@ -187,6 +194,7 @@ let maxUnlockedLevel = 0;
 const levelsMenu = document.getElementById('levels-menu');
 const levelTitle = document.getElementById('level-title');
 const theoryContent = document.getElementById('theory-content');
+const summaryContent = document.getElementById('summary-content');
 const startQuizBtn = document.getElementById('start-quiz-btn');
 const theorySection = document.getElementById('theory-section');
 const quizSection = document.getElementById('quiz-section');
@@ -202,6 +210,14 @@ const quizProgress = document.getElementById('quiz-progress');
 const completionMessage = document.getElementById('completion-message');
 const continueBtn = document.getElementById('continue-btn');
 const levelProgressText = document.getElementById('level-progress-text');
+const overallProgress = document.getElementById('overall-progress');
+const progressFill = document.getElementById('progress-fill');
+
+function updateProjectProgress() {
+  const percent = Math.round(((currentLevelIndex + 1) / levelsData.length) * 100);
+  overallProgress.textContent = `${percent}%`;
+  progressFill.style.width = `${percent}%`;
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   renderSidebar();
@@ -234,8 +250,10 @@ function loadLevel(index) {
   const level = levelsData[index];
   levelTitle.textContent = level.title;
   theoryContent.textContent = level.theory;
+  summaryContent.textContent = level.summary;
   levelDisplay.textContent = `${index + 1} / ${levelsData.length}`;
   levelProgressText.textContent = `Nivel ${index + 1}`;
+  updateProjectProgress();
 
   theorySection.classList.remove('hidden');
   quizSection.classList.add('hidden');
@@ -309,6 +327,7 @@ function finishLevel() {
 
   completionMessage.textContent = `¡Felicidades! Has superado los desafíos del ${levelsData[currentLevelIndex].title}.`;
   renderSidebar();
+  updateProjectProgress();
 }
 
 function handleContinue() {
