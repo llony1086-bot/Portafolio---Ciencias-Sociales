@@ -44,35 +44,35 @@ const resetBtn = document.getElementById('resetBtn');
 function getLevel(percent) {
   if (percent >= 90) {
     return {
-      title: 'Nivel experto',
-      description: 'Excelente trabajo: has alcanzado un nivel profesional sobresaliente.'
+      title: 'Nivel excelente',
+      description: 'El portafolio presenta un nivel profesional sobresaliente y muy bien consolidado.'
     };
   }
 
   if (percent >= 75) {
     return {
-      title: 'Nivel avanzado',
-      description: 'Muy buen desempeño: tu portafolio está bien desarrollado y presenta gran calidad.'
+      title: 'Nivel destacado',
+      description: 'Se observa un trabajo de alta calidad con excelente organización y presentación.'
     };
   }
 
   if (percent >= 60) {
     return {
       title: 'Nivel competente',
-      description: 'Buen trabajo: solo faltan pequeños ajustes para alcanzar un nivel destacado.'
+      description: 'El trabajo cumple con los objetivos principales; solo requiere algunos ajustes finales.'
     };
   }
 
   if (percent >= 40) {
     return {
       title: 'Nivel inicial',
-      description: 'Se observa avance, pero todavía hay oportunidades para reforzar la propuesta.'
+      description: 'Se evidencia avance, pero aún faltan reforzar aspectos clave de contenido y diseño.'
     };
   }
 
   return {
-    title: 'Nivel sin evaluar',
-    description: 'Completa la rúbrica para conocer tu nivel actual.'
+    title: 'Sin evaluar',
+    description: 'Completa la rúbrica para obtener una valoración profesional del trabajo.'
   };
 }
 
@@ -129,7 +129,7 @@ function updateSummary() {
 
 function saveProgress() {
   localStorage.setItem('rubrica-portafolio', JSON.stringify(state.values));
-  saveStatus.textContent = 'Evaluación guardada correctamente.';
+  saveStatus.textContent = 'Rúbrica guardada correctamente.';
 }
 
 function resetProgress() {
@@ -145,7 +145,7 @@ function restoreProgress() {
 
   if (Array.isArray(saved) && saved.length === criteria.length) {
     state.values = saved.map((value) => Math.min(Math.max(value, 0), 5));
-    saveStatus.textContent = 'Se restauró la última evaluación guardada.';
+    saveStatus.textContent = 'Se restauró la evaluación guardada.';
   }
 }
 
