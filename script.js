@@ -1,6 +1,3 @@
-// Banco de Datos de Ciencias Sociales - I.E. N° 0759 "Francisco Bolognesi"
-// Docente: Llony Angulo Muñoz - III Bimestre
-
 const levelsData = [
   {
     id: 1,
