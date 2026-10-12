@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rúbrica profesional | Portafolio gamificado</title>
+    <meta
+      name="description"
+      content="Rúbrica profesional y gamificada para evaluar un portafolio escolar con enfoque en Ciencias Sociales."
+    />
+    <link rel="stylesheet" href="rubrica.css" />
+    <script src="rubrica.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">I.E. N° 0759</span>
+          <div>
+            <p class="eyebrow">Evaluación integral</p>
+            <h1>Rúbrica del portafolio</h1>
+          </div>
+        </div>
+
+        <a class="ghost-button" href="index.html">Volver al portafolio</a>
+      </header>
+
+      <main class="dashboard">
+        <aside class="summary-panel">
+          <div class="score-ring" id="scoreRing" style="--progress: 0%;">
+            <div class="score-ring-inner">
+              <span id="scoreValue">0/100</span>
+            </div>
+          </div>
+
+          <div class="summary-copy">
+            <p class="label">Puntuación total</p>
+            <h2 id="levelName">Nivel: sin evaluar</h2>
+            <p id="levelDescription">Completa la rúbrica para conocer tu nivel actual.</p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-box">
+              <span class="stat-label">Criterios</span>
+              <strong id="criteriaCount">0/5</strong>
+            </div>
+            <div class="stat-box">
+              <span class="stat-label">Progreso</span>
+              <strong id="progressValue">0%</strong>
+            </div>
+          </div>
+
+          <div class="actions">
+            <button class="primary-btn" id="saveBtn" type="button">Guardar</button>
+            <button class="secondary-btn" id="resetBtn" type="button">Reiniciar</button>
+          </div>
+
+          <p class="save-status" id="saveStatus" aria-live="polite"></p>
+        </aside>
+
+        <section class="rubric-panel">
+          <div class="panel-header">
+            <div>
+              <span class="pill">Profesional</span>
+              <h2>Rúbrica gamificada</h2>
+            </div>
+            <span class="chip">Autoevaluación</span>
+          </div>
+
+          <div id="criteriaContainer" class="criteria-list" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
