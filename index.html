@@ -1,124 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio Gamificado | Ciencias Sociales</title>
-    <meta
-      name="description"
-      content="Portafolio gamificado para Ciencias Sociales, con niveles y desafíos interactivos."
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <header class="app-header">
-      <div class="header-container">
-        <div class="brand-block">
-          <span class="brand-badge">I.E. N° 0759</span>
-          <div>
-            <h1>Portafolio Gamificado</h1>
-            <p>Francisco Bolognesi • Ciencias Sociales</p>
-          </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Catálogo interactivo — Técnicas y medios didácticos</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- GSAP for animations, Howler for audio -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="assets/images/cesar-vallejo-1.png" alt="Logo Universidad César Vallejo" class="logo">
+      <div>
+        <h1>Catálogo interactivo de técnicas y medios didácticos</h1>
+        <p class="area">Área: TÉCNICAS Y ESTRATEGIAS PARA LA ENSEÑANZA Y ASESORÍA DE LA INVESTIGACIÓN CIENTÍFICA ONLINE</p>
+      </div>
+    </div>
+    <nav class="top-nav">
+      <button data-section="inicio" class="nav-btn active">Inicio</button>
+      <button data-section="desarrollo" class="nav-btn">Desarrollo</button>
+      <button data-section="cierre" class="nav-btn">Cierre</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="inicio" class="section active">
+      <div class="card hero">
+        <h2>Presentación</h2>
+        <p class="lead">Propuesta gamificada y multimedia para enseñar investigación científica. Navega por niveles, responde mini-quizzes y completa la evaluación final.</p>
+        <div class="cover-logos">
+          <img src="assets/images/cesar-vallejo-virtual-2.png" alt="CESAR VALLEJO Virtual" class="virtual-logo">
         </div>
 
-        <div class="stats-bar">
-          <div class="stat-item">
-            <span class="stat-label">Puntos XP</span>
-            <span id="score-display" class="stat-value">0</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-label">Nivel actual</span>
-            <span id="level-display" class="stat-value">1 / 7</span>
-          </div>
-          <a class="stat-link" href="rubrica.html" aria-label="Abrir rúbrica profesional">Rúbrica</a>
+        <div class="meta">
+          <h3>Integrantes</h3>
+          <ul>
+            <li>Angulo Muñoz, LLony</li>
+            <li>Espinoza Pérez, Tania</li>
+            <li>Iturbe Quiroz, Rosa Elizabeth</li>
+            <li>Machoa Olortegui, Mari Elizabeth</li>
+            <li>Prado Lozano Nancy Lionel</li>
+          </ul>
+          <p class="purpose"><strong>Propósito:</strong> Ofrecer un catálogo interactivo y gamificado de técnicas y medios para la enseñanza y asesoría de la investigación científica online.</p>
+        </div>
+
+        <div class="controls">
+          <button id="start-btn" class="primary">Comenzar Nivel 1</button>
+          <label class="audio-toggle">Audio de fondo: <input id="audio-toggle" type="checkbox" checked></label>
         </div>
       </div>
-    </header>
 
-    <div class="main-container">
-      <aside class="sidebar">
-        <div class="sidebar-header">
-          <h2>Temas del bimestre</h2>
-          <span class="mini-tag">7 niveles</span>
+      <div class="card info">
+        <h3>Criterios de evaluación</h3>
+        <ul>
+          <li>Participación activa en quizzes (30%)</li>
+          <li>Correctitud en evaluación final (40%)</li>
+          <li>Creatividad en ejemplos y uso de herramientas (30%)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="desarrollo" class="section">
+      <div class="level-area">
+        <h2 id="level-title">Nivel 1 — Técnicas Didácticas</h2>
+        <div id="progress" class="progress"><div id="progress-bar"></div></div>
+        <div id="catalogue" class="catalogue"></div>
+        <div id="quiz" class="quiz"></div>
+        <div class="level-controls">
+          <button id="prev-level" class="secondary" disabled>Anterior</button>
+          <button id="next-level" class="secondary">Siguiente</button>
         </div>
-        <div id="levels-menu" class="levels-menu"></div>
-      </aside>
+      </div>
+    </section>
 
-      <main class="content-panel">
-        <div class="top-summary">
-          <div class="summary-copy">
-            <span class="eyebrow">Proyecto académico</span>
-            <h2>Desafíos de Ciencias Sociales</h2>
-            <p>Aprende, progresa y acumula experiencia resolviendo cada nivel del bimestre.</p>
-          </div>
-
-          <div class="badge-stack">
-            <span class="medal">🏆 Reto bimestral</span>
-            <span class="medal subtle">⚡ +150 XP</span>
-          </div>
-
-          <div class="progress-strip">
-            <div class="progress-label">
-              <span>Avance del proyecto</span>
-              <strong id="overall-progress">14%</strong>
-            </div>
-            <div class="progress-bar">
-              <span id="progress-fill"></span>
-            </div>
-          </div>
+    <section id="cierre" class="section">
+      <div class="card final">
+        <h2>Evaluación final</h2>
+        <p>Completa la evaluación gamificada. Al finalizar podrás descargar tu resultado.</p>
+        <div id="final-quiz"></div>
+        <div class="final-controls">
+          <button id="download-result" class="primary" disabled>Descargar Resultado</button>
+          <button id="restart" class="secondary">Reiniciar</button>
         </div>
+      </div>
+    </section>
+  </main>
 
-        <section id="theory-section" class="panel-section">
-          <div class="section-topbar">
-            <div>
-              <span class="section-kicker">Aprendizaje</span>
-              <span class="level-progress" id="level-progress-text">Nivel 1</span>
-            </div>
-            <span class="theme-emoji" id="theme-emoji">📚</span>
-          </div>
+  <footer class="site-footer">
+    <p>Repo: llony1086-bot/Portafolio---Ciencias-Sociales • Prototipo por el equipo</p>
+  </footer>
 
-          <h2 id="level-title">Tema 1: El Feudalismo</h2>
-
-          <div class="summary-box">
-            <h3>📌 Resumen del tema:</h3>
-            <p id="summary-content" class="summary-text"></p>
-          </div>
-
-          <div class="theory-box">
-            <h3>📖 Teoría completa:</h3>
-            <div id="theory-content" class="theory-text"></div>
-          </div>
-
-          <button id="start-quiz-btn" class="btn btn-primary">🎯 Iniciar desafío del nivel</button>
-        </section>
-
-        <section id="quiz-section" class="panel-section hidden">
-          <div class="section-topbar">
-            <div>
-              <span class="section-kicker">Evaluación</span>
-              <span id="quiz-progress" class="level-progress">Pregunta 1 de 3</span>
-            </div>
-          </div>
-
-          <h2 id="question-text">Pregunta</h2>
-          <div id="options-container" class="options-grid"></div>
-
-          <div id="feedback-container" class="feedback-box hidden">
-            <p id="feedback-text"></p>
-            <button id="next-question-btn" class="btn btn-secondary">➜ Siguiente pregunta</button>
-          </div>
-        </section>
-
-        <section id="completion-section" class="panel-section hidden">
-          <div class="completion-card">
-            <div class="completion-icon">🎉</div>
-            <h2 id="completion-message">¡Nivel completado!</h2>
-            <p>Has superado este desafío. Puedes continuar con el siguiente nivel.</p>
-            <button id="continue-btn" class="btn btn-primary">➜ Siguiente nivel</button>
-          </div>
-        </section>
-      </main>
-    </div>
-  </body>
+  <script src="assets/js/app.js" defer></script>
+</body>
 </html>

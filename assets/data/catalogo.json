@@ -1,0 +1,73 @@
+[
+  {
+    "category":"tecnicas",
+    "name":"Cola de Pescado",
+    "description":"Herramienta para analizar causas y efectos de un problema de investigación.",
+    "advantages":"Claridad en causas raíz; útil para problematización grupal.",
+    "example":"Usarla para desglosar las causas de un bajo rendimiento en un curso.",
+    "link":"",
+    "question":"¿Cuál es el propósito principal de la técnica 'Cola de Pescado'?",
+    "options":["Visualizar cronogramas","Analizar causas y efectos","Organizar bibliografía"],
+    "answerIndex":1,
+    "finalQuestion":"La técnica 'Cola de Pescado' ayuda principalmente a:",
+    "finalOptions":["Crear mapas mentales","Identificar causas","Editar videos"],
+    "finalAnswerIndex":1
+  },
+  {
+    "category":"tecnicas",
+    "name":"Mapas Conceptuales",
+    "description":"Organización visual de conceptos y relaciones.",
+    "advantages":"Permite estructurar conocimiento y detectar vacíos conceptuales.",
+    "example":"Mapear variables clave de una investigación.",
+    "link":"",
+    "question":"¿Qué beneficio aporta un mapa conceptual?",
+    "options":["Estructurar relaciones entre conceptos","Crear formularios","Mejorar la calidad del audio"],
+    "answerIndex":0,
+    "finalQuestion":"Un mapa conceptual es útil para:",
+    "finalOptions":["Estructurar relaciones","Publicar en redes","Controlar versiones"],
+    "finalAnswerIndex":0
+  },
+  {
+    "category":"exposicion",
+    "name":"Videos",
+    "description":"Material audiovisual para explicar procedimientos y ejemplos.",
+    "advantages":"Alto impacto visual; facilita la comprensión en entornos asincrónicos.",
+    "example":"Micro-lecciones en vídeo sobre metodología.",
+    "link":"",
+    "question":"¿Cuál es una ventaja de usar videos?",
+    "options":["Mejoran la comprensión visual","Reducen la investigación","Sustituyen la bibliografía"],
+    "answerIndex":0
+  },
+  {
+    "category":"exposicion",
+    "name":"Prezi / Genially",
+    "description":"Presentaciones interactivas con recorrido no lineal.",
+    "advantages":"Mayor interactividad y retención.",
+    "example":"Presentación interactiva del catálogo.",
+    "link":""
+  },
+  {
+    "category":"cocreacion",
+    "name":"Miro / Padlet",
+    "description":"Herramientas para co-creación y organización de ideas.",
+    "advantages":"Trabajo colaborativo en tiempo real.",
+    "example":"Mapeo colaborativo de resultados de investigación.",
+    "link":""
+  },
+  {
+    "category":"evaluacion",
+    "name":"Quizziz / Kahoot",
+    "description":"Plataformas de gamificación y evaluación formativa.",
+    "advantages":"Feedback inmediato; motivación por puntos y rankings.",
+    "example":"Quiz formativo al terminar cada nivel.",
+    "link":""
+  },
+  {
+    "category":"evaluacion",
+    "name":"Zotero / Mendeley / ChatGPT",
+    "description":"Herramientas para gestión de referencias y apoyo en revisión bibliográfica.",
+    "advantages":"Organización de fuentes y apoyo en búsqueda y resumen.",
+    "example":"Uso de Zotero para organizar bibliografía del proyecto.",
+    "link":""
+  }
+]

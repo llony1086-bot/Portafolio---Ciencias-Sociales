@@ -1,0 +1,1 @@
+Placeholder: añade aquí `background-loop.mp3` (pista de audio para el fondo). Si tienes una pista específica, súbela a `assets/audio/background-loop.mp3`. Actualmente el prototipo funcionará sin audio, mostrando un aviso en la consola.
