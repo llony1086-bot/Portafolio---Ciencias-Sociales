@@ -1,21 +1,10 @@
-# Portafolio - Catálogo interactivo
+# Portafolio - Catálogo interactivo (Versión final)
 
-Prototipo interactivo gamificado creado para el curso. Esta rama incluye contenido ampliado y fichas académicas para cada herramienta.
+Prototipo avanzado y listo para presentación universitaria. Esta rama `feature/catalogo-interactivo` contiene la versión final con contenido ampliado y mejoras visuales.
 
-Deploy en GitHub Pages:
-1. Ve a Settings → Pages en el repositorio.
-2. Selecciona la rama `feature/catalogo-interactivo` y la carpeta `/ (root)`.
-3. Guarda y espera la URL de publicación.
+Pasos recomendados para publicar:
+1. Revisa visualmente la rama `feature/catalogo-interactivo` en GitHub.
+2. Si todo está correcto, abre un Pull Request hacia la rama por defecto (por ejemplo `main` o `master`) y revisa cambios.
+3. Alternativamente, publica directamente desde esta rama en Settings → Pages (selecciona branch `feature/catalogo-interactivo` → root) para obtener una demo pública.
 
-Notas de personalización:
-- Reemplaza `assets/images/cesar-vallejo-1.png` y `assets/images/cesar-vallejo-virtual-2.png` con las imágenes reales (si deseas que lo haga yo, súbelas aquí o dime los archivos y las subiré).
-- Añade `assets/audio/background-loop.mp3` si quieres audio de fondo. Actualmente existe un placeholder de instrucciones.
-- Edita `assets/data/catalogo.json` para añadir más herramientas o ajustar los textos.
-
-Listado de mejoras incluidas en esta versión:
-- Fichas completas para técnicas y herramientas clave (propósito, aplicación, ventajas, ejemplos, nivel).
-- UI refinada con badges, microinteracciones y animaciones.
-- Confetti y efectos sonoros para feedback de usuario.
-- Evaluación final ampliada (hasta 5 preguntas).
-
-Si quieres que yo suba las imágenes institucionales desde las que compartiste en el chat, dime ahora y las incorporo.
+¿Quieres que haga yo el Pull Request y el deploy en Pages? Si quieres que haga el PR, indícame el repositorio y la rama destino (si es diferente a la rama por defecto). Para el deploy automático en Pages necesito que confirmes que use la rama `feature/catalogo-interactivo` y que aceptes que las imágenes institucionales (si las subo) serán públicas en la demo.

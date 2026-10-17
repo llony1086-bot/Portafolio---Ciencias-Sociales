@@ -1,18 +1,21 @@
-# Catálogo interactivo — Fichas completas
+# Catálogo interactivo — Fichas completas (Versión final)
 
-A continuación se muestran las fichas completas incluidas en el prototipo (resumen impreso).
+Esta versión contiene fichas académicas y ejemplos prácticos para cada técnica y herramienta mencionada en el proyecto. Está pensada para ser la versión final destinada a presentación y publicación.
 
-## Técnicas didácticas
+## Cómo usar esta versión
+- Revisa `index.html` en la rama `feature/catalogo-interactivo` para ver la web completa.
+- Si deseas publicar en GitHub Pages, ve a Settings → Pages y selecciona la rama `feature/catalogo-interactivo` (root).
+- Para personalizar imágenes y audio, reemplaza los archivos en `assets/images/` y `assets/audio/`.
 
-- Cola de Pescado
-  - ¿Qué es?: Herramienta visual (Ishikawa) para identificar causas raíz de un problema central.
-  - Propósito: Analizar y organizar causas y subcausas relacionadas con un problema de investigación.
-  - Aplicación en investigación: Se usa para descomponer un problema complejo y planear acciones.
-  - Ventajas: Facilita pensamiento sistémico y trabajo colaborativo.
-  - Ejemplo: Diagnóstico de baja participación en foros.
+## Contenido incluido (resumen)
+Incluye fichas completas con: descripción, propósito, aplicación en investigación, ventajas, ejemplo práctico, nivel de uso y enlaces.
 
-- Árbol de Problemas
-  - ¿Qué es?: Representación jerárquica de problemas, causas y consecuencias.
-  - Propósito: Estructurar problemas en niveles y trazar relaciones causal.
+### Herramientas y técnicas incluidas
+- Técnicas didácticas: Cola de Pescado (Ishikawa), Árbol de Problemas, Mapas Conceptuales, Líneas de Tiempo, Barrida de Textos, Foros Virtuales, Debates guiados.
+- Medios de exposición: Videos, Prezi/Genially/Canva, PowerPoint Interactivo, Zoom/Google Meet, WhatsApp Académico.
+- Medios de co-creación: Miro, Padlet, Jamboard, MindMeister, Lucidchart, Trello, Notion.
+- Medios de evaluación y gestión: Quizziz, Kahoot, Mentimeter, Wordwall, Moodle, Google Classroom, Canvas, Zotero, Mendeley, ChatGPT, Elicit, Scite.ai.
 
-(El documento completo está disponible en la web interactiva.)
+---
+
+Si quieres que yo haga el deploy a GitHub Pages una vez que confirmes, puedo activarlo y enviarte la URL pública de la demo. También puedo subir las imágenes institucionales que compartiste en el chat (si me confirmas nuevamente) y añadir una pista de audio CC0 para el fondo para que la presentación suene más profesional.
