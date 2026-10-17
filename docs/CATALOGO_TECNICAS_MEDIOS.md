@@ -1,26 +1,18 @@
-# Catálogo interactivo de técnicas y medios didácticos para la enseñanza de la investigación científica
+# Catálogo interactivo — Fichas completas
 
-## Área
-TÉCNICAS Y ESTRATEGIAS PARA LA ENSEÑANZA Y ASESORÍA DE LA INVESTIGACIÓN CIENTÍFICA ONLINE
+A continuación se muestran las fichas completas incluidas en el prototipo (resumen impreso).
 
-## Integrantes
-- Angulo Muñoz, LLony
-- Espinoza Pérez, Tania
-- Iturbe Quiroz, Rosa Elizabeth
-- Machoa Olortegui, Mari Elizabeth
-- Prado Lozano Nancy Lionel
+## Técnicas didácticas
 
-## Estructura
-- Inicio: carátula, propósito, introducción, criterios de evaluación e imágenes de herramientas digitales.
-- Desarrollo: presentación de todas las herramientas organizadas por función y ventajas; propuesta gamificada con niveles, preguntas y animaciones.
-- Cierre: evaluación final gamificada y conclusiones.
+- Cola de Pescado
+  - ¿Qué es?: Herramienta visual (Ishikawa) para identificar causas raíz de un problema central.
+  - Propósito: Analizar y organizar causas y subcausas relacionadas con un problema de investigación.
+  - Aplicación en investigación: Se usa para descomponer un problema complejo y planear acciones.
+  - Ventajas: Facilita pensamiento sistémico y trabajo colaborativo.
+  - Ejemplo: Diagnóstico de baja participación en foros.
 
-## Contenido (resumen)
-- Técnicas didácticas: Cola de Pescado, Árbol de Problemas, Mapas Conceptuales, Foros Virtuales, Debates guiados, Líneas de Tiempo, Barrida de Textos.
-- Medios de exposición: Videos, Prezi, Genially, Canva, PowerPoint interactivo, Zoom, Google Meet, WhatsApp académico.
-- Medios de co-creación: Miro, MindMeister, Padlet, Jamboard, Lucidchart, Trello, Notion.
-- Medios de evaluación y gestión: Quizziz, Kahoot, Mentimeter, Wordwall, Moodle, Google Classroom, Canvas LMS, Zotero, Mendeley, ChatGPT, Elicit, Scite.ai.
+- Árbol de Problemas
+  - ¿Qué es?: Representación jerárquica de problemas, causas y consecuencias.
+  - Propósito: Estructurar problemas en niveles y trazar relaciones causal.
 
----
-
-(El contenido completo y ejemplos se encuentran también en la web interactiva `index.html` en la rama `feature/catalogo-interactivo`.)
+(El documento completo está disponible en la web interactiva.)
